@@ -2,9 +2,3 @@
 # Пример:
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
-N = int(input('Введите число N: '))
-sum = 1
-for item in range(2, N + 1):
-    print(sum, end=', ') 
-    sum *= item 
-print(sum)
