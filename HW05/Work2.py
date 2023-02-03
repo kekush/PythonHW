@@ -1,8 +1,8 @@
 # Создайте программу для игры с конфетами человек против человека.
 import random
 
-conf = 20
-step = 5
+conf = 2021
+step = 28
 # num = conf + 1
 player = random.randint(1, 2)
 while conf > 0:
