@@ -28,4 +28,3 @@ print('Используем List Comprehension:')
 my_list = [int(el) for el in num if el.isdigit()]
 print(my_list)
 print(f'Сумма цифр числа = {summa2(my_list)}')
-# print(list(map(summa, num)))
