@@ -20,7 +20,6 @@ a, b, c, d, e = -12, -18, 5, 10, -30
 
 x = np.arange(-limit, limit, step)
 
-
 def switch_color():
     global color
     if color == 'b':
@@ -28,7 +27,6 @@ def switch_color():
     else:
         color = 'b'
     return color
-
 
 def switch_line():
     global line_s
@@ -38,15 +36,10 @@ def switch_line():
         line_s = '-'
     return line_s
 
-
 def func(x):
     return a * x ** 4 * np.sin(np.cos(x)) + b * x ** 3 + c * x ** 2 + d * x + e
 
-
 x_change = [(-limit, 'limit')]
-
-
-# def zero_accuracy(c_x: float, n_x: float)
 
 for i in range(len(x) - 1):
     if (func(x[i]) > 0 and func(x[i + 1]) < 0) or (func(x[i]) < 0 and func(x[i + 1]) > 0):
